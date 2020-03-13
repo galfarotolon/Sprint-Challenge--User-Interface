@@ -34,13 +34,30 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML is used to give meaning to the information and structure of webpages and web applications instead of just defining their presentation or looks. Semantic HTML is also very useful for SEO (Search Engine Optimization), as current web browsers can better understand what type of information is located within a website. 
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+Display: block; elements always start on a new line and take up the full width available. These elements stretch from side to side and do not allow any other elements to sit beside them. An example of a block element would be a div. 
+
+On the other hand, display inline elements do not start on a new line and only take as much space as the element itself. This would include an anchor tag or an image, which only take up the space of their width and height. 
+
 
 3. What are the 4 areas of the box model?
 
+The 4 areas of the box model are the content, padding, border, and margin.
+The content is where the information or elements are placed, while the padding gives space from the element to the border (inside the content box). The border is usually a line that defines the space (can de dotted, solid, or many other forms) and surrounds the content plus the padding space. Lastly the margin occupies the exterior of the border and spaces elements between one another. 
+
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+This property works on the Y-axis or the “cross” axis (from top to bottom). The x-axis counterpart would be justify-content: center; which would center the items from left to right. 
+
 5. Explain why git is valuable to a team of developers.
+
+GIT is very valuable for developers to facilitate version control and sharing of files. Version control records changes done to a file over time and help developers go back and see their changes or even revert to a previous version of the code. 
+It is a tool also for other developers to go over your work and follow your logic and reasoning closely while you commit new changes to the code. 
+
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
