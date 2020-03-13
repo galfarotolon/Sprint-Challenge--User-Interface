@@ -223,3 +223,12 @@ nav a{
     background: dodgerblue;
 }
 
+
+/* ABOUT PAGE */
+
+.about{
+
+    padding-bottom: 3%;
+    border-bottom: dashed 1px black;
+    padding-left: 3%;
+}
