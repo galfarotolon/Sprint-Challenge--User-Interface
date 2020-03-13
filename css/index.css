@@ -172,6 +172,8 @@ nav a{
     color: black;
 }
 
+
+
 .logo{
 
     padding-left: 4%;
@@ -232,3 +234,52 @@ nav a{
     border-bottom: dashed 1px black;
     padding-left: 3%;
 }
+
+.items{
+    display: flex;
+	flex-wrap: wrap; 
+    justify-content: space-evenly;
+    margin: 3% 0;
+
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    border-bottom: 1px dashed black;
+    margin-bottom: 3%;
+	
+
+}
+
+.item h2{
+    margin-top: 3%;
+}
+
+.item button{
+    margin-top: 10%;
+    margin-bottom: 5%;
+       border: black solid 2px;
+       font-size: 1rem;
+       background: white;
+       width: 35%;
+       border-radius: 7px;
+       height: 40px;
+   }
+
+   .item button:hover{
+	color: white;
+	background-color: black;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+   .work{
+       margin: 4% 0;
+       padding: 0 5%;
+   }
+
+   footer nav{
+       margin-bottom: 3%;
+   }
