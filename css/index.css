@@ -104,7 +104,7 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -144,3 +144,142 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* Challenge code */
+
+/* Nav bar and logo */
+
+nav{
+    display: flex;
+justify-content: center;
+align-items: baseline;
+padding-top: 2%;
+padding-bottom: 3%;
+width: 100%;
+   
+  
+}
+
+.links{
+    width:50%;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.logo{
+
+    padding-left: 4%;
+
+}
+
+/* Main image */
+
+#jumboImg{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    padding-left: 21%;
+    padding-bottom: 2%;
+}
+
+
+/* Boxes */
+
+.box1{
+    background: teal;
+}
+
+.box2{
+    background: gold;
+}
+.box3{
+    background: cadetblue;
+}
+.box4{
+    background: coral;
+}
+.box5{
+    background: crimson;
+}
+.box6{
+    background: forestgreen;
+}
+.box7{
+    background: darkorchid;
+}
+.box8{
+    background: hotpink;
+}
+.box9{
+    background: indigo;
+}
+.box10{
+    background: dodgerblue;
+}
+
+
+/* ABOUT PAGE */
+
+.about{
+
+    padding-bottom: 3%;
+    border-bottom: dashed 1px black;
+    padding-left: 3%;
+}
+
+.items{
+    display: flex;
+	flex-wrap: wrap; 
+    justify-content: space-evenly;
+    margin: 3% 0;
+
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    border-bottom: 1px dashed black;
+    margin-bottom: 3%;
+	
+
+}
+
+.item h2{
+    margin-top: 3%;
+}
+
+.item button{
+    margin-top: 10%;
+    margin-bottom: 5%;
+       border: black solid 2px;
+       font-size: 1rem;
+       background: white;
+       width: 35%;
+       border-radius: 7px;
+       height: 40px;
+   }
+
+   .item button:hover{
+	color: white;
+	background-color: black;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+   .work{
+       margin: 4% 0;
+       padding: 0 5%;
+   }
+
+   footer nav{
+       margin-bottom: 3%;
+   }
